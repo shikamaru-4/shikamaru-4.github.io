@@ -1,0 +1,36 @@
+<!Doctype html>
+<html>
+<style>
+.btn-group button {
+  background-color: #cccccc; /* Green background */
+  border: 1px #949494; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  width: 30%; /* Set a width if needed */
+  display: block; /* Make the buttons appear below each other */
+}
+
+.btn-group button:not(:last-child) {
+  border-bottom: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #949494;
+}
+</style>
+<body>
+
+<h1>Match Links</h1>
+
+<div class="btn-group">
+  <button onclick="window.open('https://www.jiocinema.com/', '_blank')">Jio Cinema</button>
+</div>
+<p> </p>
+<div class="btn-group"> 
+  <button onclick="window.open('https://www.espncricinfo.com/', '_blank')">Espn</button>  
+</div>
+
+</body>
+</html>
